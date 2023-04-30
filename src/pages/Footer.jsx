@@ -9,7 +9,7 @@ const Footer = () => {
   const isAboveMediumScreen = useMediaQuery("(min-width:1060px)");
 
   return (
-    <footer id="contact-us" className="pt-12 pb-6 md:pt-24 md:pb-12">
+    <footer id="contact us" className="pt-12 pb-6 md:pt-24 md:pb-12">
       <div className="flex flex-col gap-14 md:gap-20">
         {isAboveMediumScreen ? (
           <div className="text-white">
@@ -28,8 +28,8 @@ const Footer = () => {
             </h2>
           </div>
         )}
-        <div className="text-white">
-          <LineGradient width="w-20" />
+        <div className="text-white mt-10">
+          <LineGradient width="w-12" />
           <div className="mt-4">
             <p className="text-2xl md:text-4xl">contact@jinncyinc.com</p>
             <p className="text-pale-grey text-xl">
@@ -59,7 +59,7 @@ const Footer = () => {
                 No 113 IBB High Road Drive, Calabar, Cross River State, Nigeria
               </p>
             </div>
-            <div className=" order-1 ">
+            <div className=" w-full order-1 mt-10">
               <SubHeading text="Follow Us" />
               <SocialMediaIcons mobilePos="justify-start" />
               <InputButton />

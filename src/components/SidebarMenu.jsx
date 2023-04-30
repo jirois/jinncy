@@ -30,7 +30,11 @@ const SidebarMenu = ({
   setSelectedPage,
 }) => {
   return (
-    <div className="fixed right-0 bottom-0 h-full w-[300px] bg-dark-grey z-10 px-4 ">
+    <div
+      className={`fixed right-0 bottom-0 h-full w-[300px] bg-dark-grey z-10 px-4 ease-in-out duration-500 ${
+        isMenuToggled ? "translate-x-0" : "translate-x-full"
+      }`}
+    >
       {/* SIDEBAR HEADER */}
       <header>
         <div

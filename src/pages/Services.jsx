@@ -2,6 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import SubHeading from "../components/SubHeading";
+import WebIcon from "../components/Icons/WebIcon";
+import WinIcon from "../components/Icons/WinIcon";
+import LusIcon from "../components/Icons/LusIcon";
+import ProductIcon from "../components/Icons/ProductIcon";
+import UiIcon from "../components/Icons/UiIcon";
+import MobileIcon from "../components/Icons/MobileIcon";
 
 const Services = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
@@ -65,90 +71,143 @@ const Services = () => {
       <div className="mt-[46px]">
         {/* The First section */}
         <div className="flex flex-col md:justify-between md:flex-row gap-10 mb-16 ">
-          <div className=" flex flex-col gap-[30px]">
-            <div className="text-orange">
-              <svg
-                width="64px"
-                height="64px"
-                viewBox="0 0 64 64"
-                enable-background="new 0 0 64 64"
-              >
-                <g>
-                  <path
-                    fill="#231F20"
-                    d="M55,11H9c-0.553,0-1,0.447-1,1v34c0,0.553,0.447,1,1,1h46c0.553,0,1-0.447,1-1V12
-		C56,11.447,55.553,11,55,11z"
-                  />
-                  <path
-                    fill="#231F20"
-                    d="M63,49h-3V11c0-2.211-1.789-4-4-4H8c-2.211,0-4,1.789-4,4v38H1c-0.553,0-1,0.447-1,1v3c0,2.211,1.789,4,4,4
-		h56c2.211,0,4-1.789,4-4v-3C64,49.447,63.553,49,63,49z M58,49H36c-0.553,0-1,0.447-1,1v1h-6v-1c0-0.553-0.447-1-1-1H6V11
-		c0-1.104,0.896-2,2-2h48c1.104,0,2,0.896,2,2V49z"
-                  />
-                </g>
-              </svg>
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <WinIcon />
             </div>
             <h4 className="font-bold text-2xl">Brand Identity</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              This includes visual and messaging aspects that represent your
+              business and we help it stand out from competition. This
+              encompasses your business's name, logo, typography, color palette,
+              imagery, tone of voice, and overall design aesthetic.
             </p>
-          </div>
-          <div className=" flex flex-col gap-[30px]">
-            <img alt="click" />
+          </motion.div>
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <LusIcon />
+            </div>
             <h4 className="font-bold text-2xl">Illustration</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              We create illustration for your business to help to convey an
+              idea, message, or story behind your business.We use Illustration
+              because we considered it a strong communication tool which convey
+              complicated concepts and emotions in a simple and understandable
+              manner about a business.
             </p>
-          </div>
-          <div className=" flex flex-col gap-[30px]">
-            <img alt="click" />
+          </motion.div>
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <WebIcon />
+            </div>
             <h4 className="font-bold text-2xl">Web Design</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              We pride ourself at creating web sites that are visually
+              beautiful, user-friendly, and accessible on a wide range of
+              devices and screen sizes. Our web design are also consistent with
+              the brand identity and messaging of the business we promote.
             </p>
-          </div>
+          </motion.div>
         </div>
         {/* The Second Section */}
         <div className="flex flex-col md:justify-between md:flex-row gap-14">
-          <div className=" flex flex-col gap-[30px]">
-            <img src="../assets/word_book.svg" alt="click" />
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <ProductIcon />
+            </div>
             <h4 className="font-bold text-2xl">Product Strategy</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              A solid product strategy is critical for creating a successful
+              product that fits consumer wants, matches with business goals, and
+              stands out in a crowded market. It helps us get a thorough
+              understanding of the target demographic, market trends, and
+              competitive landscape, as well as a well-defined product
+              development and marketing strategy for your business.
             </p>
-          </div>
-          <div className=" flex flex-col gap-[30px]">
-            <img alt="click" />
+          </motion.div>
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <UiIcon />
+            </div>
             <h4 className="font-bold text-2xl">UI/UX Design</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              The aesthetic and interactive features of a product we are working
+              on is the major reason for the emphasis of UI design. Both the UI
+              and UX are important to the success of the product we develop.
             </p>
-          </div>
-          <div className=" flex flex-col gap-[30px]">
-            <img alt="click" />
+          </motion.div>
+          <motion.div
+            className=" flex flex-col gap-[30px]"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          >
+            <div className="w-12 h-12 md:w-16 md:h-16 text-orange">
+              <MobileIcon />
+            </div>
             <h4 className="font-bold text-2xl">Mobile Development</h4>
             <p className="text-text-grey text-[18px]">
-              Lorem ipsum dolor sit amet consectetur. Malesuada amet mauris
-              iaculis proin pulvinar. Velit imperdiet dignissim cursus et
-              eleifend sed. At et rhoncus ut dolor. Enim ultricies pretium
-              fermentum varius ipsum sit eu.{" "}
+              We develop software applications for mobile devices such as
+              smartphones and tablets. Our mobile applications also follow the
+              device principles of solid software development used by jinncy inc
+              and other software companies around the world.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

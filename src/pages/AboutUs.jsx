@@ -74,36 +74,33 @@ const AboutUs = () => {
         {isAboveMediumScreens ? (
           <div className="flex justify-between">
             <motion.div
+              className="basis-[50%]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5 }}
               variants={{
-                hidden: { opacity: 0, y: -50 },
+                hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },
               }}
             >
               <div className="flex gap-10 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">1</span>
                 </div>
-                <h4 className="font-bold  text-3xl">Define</h4>
+                <h4 className="font-bold text-3xl">Define</h4>
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
-                <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque. Sed odio semper aliquet
-                  feugiat lacinia. Sed tellus morbi senectus dictum at nulla
-                  rhoncus integer odio. Morbi a diam proin dui ligula sociis id
-                  eget. Convallis ut consectetur interdum eu eget leo volutpat
-                  condimentum vel.{" "}
+                <p className="text-[16px]  ">
+                  We define and identify the purpose and objectives of your
+                  website to direct its design and content. This means choosing
+                  a relevant and memorable domain name for your website as well
+                  selecting a befiting hosting plan for your need.
                 </p>
               </div>
             </motion.div>
             <motion.div
+              className="basis-[50%]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -114,22 +111,19 @@ const AboutUs = () => {
               }}
             >
               <div className="flex gap-10 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue  text-center">
                   <span className="text-xl text-white font-bold py-3">2</span>
                 </div>
                 <h4 className="font-bold  text-3xl">Design</h4>
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque. Sed odio semper aliquet
-                  feugiat lacinia. Sed tellus morbi senectus dictum at nulla
-                  rhoncus integer odio. Morbi a diam proin dui ligula sociis id
-                  eget. Convallis ut consectetur interdum eu eget leo volutpat
-                  condimentum vel.{" "}
+                  We design a layout and outlook for your website that is
+                  appropriate for its goals and the tastes of its target
+                  audience. In designing your website we take into consideration
+                  the use case and purpose and then tailor the design to suit
+                  the purpose of the site. We are very intentional about giving
+                  your website the best look both in desktop and mobile view.
                 </p>
               </div>
             </motion.div>
@@ -138,34 +132,33 @@ const AboutUs = () => {
           // Mobile Section of First Section
           <div className="flex flex-col">
             <motion.div
-              className="mb-4"
+              className="mb-12"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5 }}
               variants={{
-                hidden: { opacity: 0, y: -50 },
+                hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },
               }}
             >
               <div className="flex gap-2 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue  text-center">
                   <span className="text-xl text-white font-bold py-3">1</span>
                 </div>
                 <h4 className="font-bold  text-2xl">Define</h4>
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque.
+                  We define and identify the purpose and objectives of your
+                  website to direct its design and content. This means choosing
+                  a relevant and memorable domain name for your website as well
+                  selecting a befiting hosting plan for your need.
                 </p>
               </div>
             </motion.div>
             <motion.div
-              className="mb-4"
+              className="mb-12"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -176,18 +169,19 @@ const AboutUs = () => {
               }}
             >
               <div className="flex gap-2 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">2</span>
                 </div>
                 <h4 className="font-bold  text-2xl">Design</h4>
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque.
+                  We design a layout and outlook for your website that is
+                  appropriate for its goals and the tastes of its target
+                  audience. In designing your website we take into consideration
+                  the use case and purpose and then tailor the design to suit
+                  the purpose of the site. We are very intentional about giving
+                  your website the best look both in desktop and mobile view.
                 </p>
               </div>
             </motion.div>
@@ -197,6 +191,7 @@ const AboutUs = () => {
         {isAboveMediumScreens ? (
           <div className="flex justify-between mt-6">
             <motion.div
+              className="basis-[50%]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -207,26 +202,24 @@ const AboutUs = () => {
               }}
             >
               <div className="flex gap-10 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">3</span>
                 </div>
-                <h4 className="font-bold  text-3xl">Build</h4>
+                <h4 className="font-bold text-3xl">Build</h4>
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque. Sed odio semper aliquet
-                  feugiat lacinia. Sed tellus morbi senectus dictum at nulla
-                  rhoncus integer odio. Morbi a diam proin dui ligula sociis id
-                  eget. Convallis ut consectetur interdum eu eget leo volutpat
-                  condimentum vel.{" "}
+                  We implement our designs and put the site to use. Part of the
+                  building process is testing the site to ensure, the site is
+                  working perfectly across the different devices. We create an
+                  online identity for your business and help you spread your
+                  across the internet. We build online visibility for your
+                  business
                 </p>
               </div>
             </motion.div>
             <motion.div
+              className="basis-[50%]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
@@ -237,22 +230,17 @@ const AboutUs = () => {
               }}
             >
               <div className="flex gap-10 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">4</span>
                 </div>
                 <h4 className="font-bold  text-3xl">Launch</h4>
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque. Sed odio semper aliquet
-                  feugiat lacinia. Sed tellus morbi senectus dictum at nulla
-                  rhoncus integer odio. Morbi a diam proin dui ligula sociis id
-                  eget. Convallis ut consectetur interdum eu eget leo volutpat
-                  condimentum vel.{" "}
+                  We publish the website and spread the word about it through
+                  various marketing channels. As part of our effort to making
+                  sure your business continue to gain visibility we update the
+                  site with new material, security upgrades, and bug fixes.
                 </p>
               </div>
             </motion.div>
@@ -261,29 +249,30 @@ const AboutUs = () => {
           // Mobile Section of Second Section
           <div className="flex flex-col">
             <motion.div
-              className="mb-4"
+              className="mb-12"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5 }}
               variants={{
-                hidden: { opacity: 0, y: -50 },
+                hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },
               }}
             >
               <div className="flex gap-2 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">3</span>
                 </div>
                 <h4 className="font-bold  text-2xl">Build</h4>
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque.
+                  We implement our designs and put the site to use. Part of the
+                  building process is testing the site to ensure, the site is
+                  working perfectly across the different devices. We create an
+                  online identity for your business and help you spread your
+                  across the internet. We build online visibility for your
+                  business
                 </p>
               </div>
             </motion.div>
@@ -298,18 +287,17 @@ const AboutUs = () => {
               }}
             >
               <div className="flex gap-2 items-center">
-                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-3 bg-blue-400 text-center">
+                <div className="w-12 h-12 rounded-full  flex items-center px-4 py-4 bg-gradient-rainblue text-center">
                   <span className="text-xl text-white font-bold py-3">4</span>
                 </div>
                 <h4 className="font-bold  text-2xl">Launch</h4>
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  Lorem ipsum dolor sit amet consectetur. Amet molestie sagittis
-                  lorem parturient curabitur ut dictumst lectus sed. Elit eu
-                  fringilla duis purus sed nec enim aliquam. Tellus iaculis
-                  tincidunt lectus fames vitae viverra. Tempor fermentum etiam
-                  amet sollicitudin eu pellentesque.
+                  We publish the website and spread the word about it through
+                  various marketing channels. As part of our effort to making
+                  sure your business continue to gain visibility we update the
+                  site with new material, security upgrades, and bug fixes.
                 </p>
               </div>
             </motion.div>

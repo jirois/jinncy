@@ -3,7 +3,7 @@ import React from "react";
 const InputButton = () => {
   return (
     <form>
-      <div className="flex flex-col md:flex-row">
+      <div className="w-full flex flex-col md:flex-row">
         <input
           type="email"
           placeholder="Email Address"

@@ -3,7 +3,6 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import ScrollButton from "../components/ScrollButton";
 
 const Landing = ({ selectedPage, setSelectedPage }) => {
   const selectedStyles = `relative bg-deep-orange before:absolute before:w-6 before:h-6 before:rounded-full before:border-2 before:border-deep-orange before:left-[-50%] before:top-[-50%]`;
@@ -100,10 +99,10 @@ const Landing = ({ selectedPage, setSelectedPage }) => {
               <div className="flex gap-5 items-center">
                 <AnchorLink
                   className={`${
-                    selectedPage === "services" ? selectedStyles : "bg-grey"
+                    selectedPage === "our services" ? selectedStyles : "bg-grey"
                   } w-3 h-3 rounded-full`}
-                  href={`#services`}
-                  onClick={() => setSelectedPage("services")}
+                  href={`#our services`}
+                  onClick={() => setSelectedPage("our services")}
                 />
                 <p className="text-2xl">Services</p>
               </div>
