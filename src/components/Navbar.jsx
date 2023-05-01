@@ -33,14 +33,13 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
         </button>
       )}
       {/* MENU POPUP */}
-      {isMenuToggled && (
-        <SidebarMenu
-          setIsMenuToggled={setIsMenuToggled}
-          isMenuToggled={isMenuToggled}
-          selectedPage={selectedPage}
-          setSelectedPage={setSelectedPage}
-        />
-      )}
+
+      <SidebarMenu
+        setIsMenuToggled={setIsMenuToggled}
+        isMenuToggled={isMenuToggled}
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+      />
     </div>
   );
 };

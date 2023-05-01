@@ -9,7 +9,7 @@ const Link = ({ page, pagenum, selectedPage, setSelectedPage }) => {
     <AnchorLink
       className={`${
         selectedPage === lowerCasePage
-          ? "text-deep-orange"
+          ? "text-deep-orange flex gap-2 py-4 items-center"
           : "flex gap-2 py-4 items-center"
       } hover:text-deep-orange transition duration-500`}
       href={`#${lowerCasePage}`}
@@ -38,7 +38,7 @@ const SidebarMenu = ({
       {/* SIDEBAR HEADER */}
       <header>
         <div
-          className="flex justify-between pt-4 pb-16"
+          className="flex justify-between pt-6 pb-16"
           style={{ borderBottom: `${borderBottom}` }}
         >
           <h4 className="text-deep-orange font-bold">JINNCY INC</h4>
@@ -55,7 +55,11 @@ const SidebarMenu = ({
       {/* SIDEBAR CONTENT */}
       <ul className="">
         <li>
-          <div className="py-4 " style={{ borderBottom: `${borderBottom}` }}>
+          <div
+            className=" "
+            style={{ borderBottom: `${borderBottom}` }}
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
             <Link
               page={"Home"}
               pagenum="01."
@@ -65,7 +69,11 @@ const SidebarMenu = ({
           </div>
         </li>
         <li>
-          <div className="py-2 " style={{ borderBottom: `${borderBottom}` }}>
+          <div
+            className=" "
+            style={{ borderBottom: `${borderBottom}` }}
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
             <Link
               page={"About Us"}
               pagenum="02."
@@ -75,7 +83,11 @@ const SidebarMenu = ({
           </div>
         </li>
         <li>
-          <div className="py-2 " style={{ borderBottom: `${borderBottom}` }}>
+          <div
+            className=" "
+            style={{ borderBottom: `${borderBottom}` }}
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
             <Link
               page={"Our Services"}
               pagenum="03."
@@ -85,7 +97,11 @@ const SidebarMenu = ({
           </div>
         </li>
         <li>
-          <div className="py-2 " style={{ borderBottom: `${borderBottom}` }}>
+          <div
+            className=" "
+            style={{ borderBottom: `${borderBottom}` }}
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
             <Link
               page={"Our Team"}
               pagenum="04."
@@ -95,7 +111,11 @@ const SidebarMenu = ({
           </div>
         </li>
         <li>
-          <div className="py-2 " style={{ borderBottom: `${borderBottom}` }}>
+          <div
+            className=" "
+            style={{ borderBottom: `${borderBottom}` }}
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
             <Link
               page={"Contact Us"}
               pagenum="05."
