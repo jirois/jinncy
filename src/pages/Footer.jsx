@@ -66,17 +66,6 @@ const Footer = () => {
             </div>
           </div>
         )}
-        {isAboveMediumScreen ? (
-          <p className="text-xl md:text-[28px] text-white">
-            copyright @{new Date().getFullYear()} all rights reserved | Jinncy
-            Inc
-          </p>
-        ) : (
-          <p className="text-xl p-2 text-white w-full">
-            copyright @{new Date().getFullYear()} all rights reserved | Jinncy
-            Inc
-          </p>
-        )}
       </div>
     </footer>
   );

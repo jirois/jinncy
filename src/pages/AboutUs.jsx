@@ -32,9 +32,8 @@ const AboutUs = () => {
               building, and launching of products. We convert abstract ideas
               into finish fully functional products that meet market standards.
               Our major focus is in revolutionizing the way products are design
-              as we as the turn around time for deployment. At Jinncy Inc, we
-              are a family of innovations and standardization. Talk to us at
-              Jinncy today!{" "}
+              as well as the turn around time for deployment. At Jinncy Inc, we
+              are a focua in promoting local business.
             </p>
           </motion.div>
         ) : (

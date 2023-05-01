@@ -160,9 +160,7 @@ const Services = () => {
               A solid product strategy is critical for creating a successful
               product that fits consumer wants, matches with business goals, and
               stands out in a crowded market. It helps us get a thorough
-              understanding of the target demographic, market trends, and
-              competitive landscape, as well as a well-defined product
-              development and marketing strategy for your business.
+              understanding of the target demographic, market trends.
             </p>
           </motion.div>
           <motion.div
@@ -183,7 +181,8 @@ const Services = () => {
             <p className="text-text-grey text-[18px]">
               The aesthetic and interactive features of a product we are working
               on is the major reason for the emphasis of UI design. Both the UI
-              and UX are important to the success of the product we develop.
+              and UX are important to the success of the product we develop. The
+              ui of your business website as well as the ux is very important.
             </p>
           </motion.div>
           <motion.div
