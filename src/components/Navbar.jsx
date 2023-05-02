@@ -8,7 +8,9 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
 
   return (
-    <div className="mx-auto w-4/5 flex justify-between text-white items-center mt-[20px]">
+    <nav
+      className={`mx-auto w-4/5 flex justify-between text-white items-center mt-[20px]`}
+    >
       <h1 className="text-4xl font-opensans font-semibold text-orange">
         J<span className=" text-white">inncy</span>
       </h1>
@@ -40,7 +42,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-    </div>
+    </nav>
   );
 };
 

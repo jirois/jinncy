@@ -1,8 +1,10 @@
 import React from "react";
-import PersonImg from "../assets/person1.png";
-import PersonImg1 from "../assets/person2.png";
+import PersonImg from "../assets/Ajiri_photo-re.png";
+import AnabelImg from "../assets/anabel_photo.png";
+import CynthiaImg from "../assets/cynthia_photo.png";
 import LineGradient from "../components/LineGradient";
 import SocialIcons from "../components/SocialIcons";
+import { motion } from "framer-motion";
 
 const Team = () => {
   return (
@@ -13,10 +15,20 @@ const Team = () => {
       </div>
       <div className="flex flex-col items-center md:justify-between md:flex-row gap-6">
         {/* first person */}
-        <div className="my-6">
-          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] overflow-hidden bg-gradient-rainblue  ">
+        <motion.div
+          className="my-3 md:my-6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] n bg-gradient-rainblue  ">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-center"
               src={PersonImg}
               alt="first person profile pic"
             />
@@ -26,37 +38,57 @@ const Team = () => {
             <p className="text-text-grey text-2xl">Co founder</p>
             <SocialIcons />
           </div>
-        </div>
+        </motion.div>
         {/* second person */}
-        <div className="my-6">
-          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] items-center overflow-hidden bg-gradient-rainblue  ">
+        <motion.div
+          className="my-3 md:my-6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
+          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] bg-gradient-rainblue">
             <img
-              className="w-full h-full object-cover"
-              src={PersonImg1}
+              className="w-full h-full object-center object-fill"
+              src={CynthiaImg}
               alt="first person profile pic"
             />
           </div>
           <div className="text-center">
-            <h4 className="font-bold text-3xl pt-4 pb-1">James Ralley</h4>
-            <p className="text-text-grey text-2xl">Graphics designer</p>
+            <h4 className="font-bold text-3xl pt-4 pb-1">Cynthia Chioma</h4>
+            <p className="text-text-grey text-2xl">Graphics/ Motion designer</p>
             <SocialIcons />
           </div>
-        </div>
+        </motion.div>
         {/* third person */}
-        <div className="my-6">
+        <motion.div
+          className="my-3 md:my-6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, scale: 0.8 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+        >
           <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] items-start overflow-hidden bg-gradient-rainblue  ">
             <img
-              className="w-full h-full object-cover"
-              src={PersonImg}
+              className="w-full h-full overflow-hidden object-center"
+              src={AnabelImg}
               alt="first person profile pic"
             />
           </div>
           <div className="text-center">
-            <h4 className="font-bold text-3xl pt-4 pb-1">Almond Welstone</h4>
+            <h4 className="font-bold text-3xl pt-4 pb-1">Ruth Anabel</h4>
             <p className="text-text-grey text-2xl">Marketing strategist</p>
             <SocialIcons />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
