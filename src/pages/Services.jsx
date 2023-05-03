@@ -29,14 +29,13 @@ const Services = () => {
           >
             <SubHeading text="WHAT WE DO" />
             <h2 className="text-5xl font-opensans font-semibold flex-wrap w-[90%] ">
-              We have what it takes to digitized your business and bring it up
-              to speed with the revolution
+              We have what it takes to digitalize your business and bring it up
+              to speed with the transformation it deserves.
             </h2>
             <p className="text-2xl font-roboto">
-              We have what it takes to bring you experience we promised. Our
-              dedicated team are on ground to make it happen. We give you the
-              total package, with the end goal of delivering a product which is
-              market worthy.{" "}
+              We follow through on our commitments. Our team is dedicated and
+              committed to the digitalization promise. We provide the complete
+              package, with the end goal of delivering a marketable product.
             </p>
           </motion.div>
         ) : (
@@ -54,14 +53,13 @@ const Services = () => {
             >
               <SubHeading text="WHO WE ARE" />
               <h2 className="text-4xl font-opensans font-semibold ">
-                We have what it takes to digitized your business and bring it up
-                to speed with the revolution
+                We have what it takes to digitalize your business and bring it
+                up to speed with the transformation it deserves.
               </h2>
               <p className="text-1xl font-roboto">
-                We have what it takes to bring you experience we promised. Our
-                dedicated team are on ground to make it happen. We give you the
-                total package, with the end goal of delivering a product which
-                is market worthy.{" "}
+                We follow through on our commitments. Our team is dedicated and
+                committed to the digitalization promise. We provide the complete
+                package, with the end goal of delivering a marketable product.
               </p>
             </motion.div>
           </div>

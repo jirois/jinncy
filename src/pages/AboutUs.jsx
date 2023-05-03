@@ -24,16 +24,19 @@ const AboutUs = () => {
           >
             <SubHeading text="WHO WE ARE" />
             <h2 className="text-5xl font-opensans font-semibold flex-wrap w-[90%] ">
-              We have what it takes to digitized your business and bring it up
-              to speed with the revolution
+              We are a group of committed individuals that are intentional about
+              developing an exceptional web platform to advertise your business
+              to the right people who require the services you provide.
             </h2>
             <p className="text-2xl font-roboto">
-              Jinncy Inc is a tech driven company. We are into design, branding,
-              building, and launching of products. We convert abstract ideas
-              into finish fully functional products that meet market standards.
-              Our major focus is in revolutionizing the way products are design
-              as well as the turn around time for deployment. At Jinncy Inc, we
-              are a focua in promoting local business.
+              Jinncy Inc is a technology-driven firm. We specialize in product
+              design, branding, construction, and launch. We turn abstract
+              concepts into finished, fully working product that meet market
+              criteria. Our primary goal is to revolutionize the way local
+              businesses operate by increasing local businesses revenue through
+              exposion of their services to the right people, at the right time
+              and in the right places. We at Jinncy Inc are dedicated to
+              promoting local businesses through technology.
             </p>
           </motion.div>
         ) : (
@@ -51,17 +54,20 @@ const AboutUs = () => {
             >
               <SubHeading text="WHO WE ARE" />
               <h2 className="text-4xl font-opensans font-semibold flex-wrap  ">
-                we are a group of digitization driven individuals who are
-                enthusiastic about creating awesome online experience.
+                We are a group of committed individuals that are intentional
+                about developing an exceptional web platform to advertise your
+                business to the right people who require the services you
+                provide.
               </h2>
               <p className="text-1xl font-roboto">
-                Jinncy Inc is a tech driven company. We are into design,
-                branding, building, and launching of products. We convert
-                abstract ideas into finish fully functional products that meet
-                market standards. Our major focus is in revolutionizing the way
-                products are design as we as the turn around time for
-                deployment. At Jinncy Inc, we are a family of innovations and
-                standardization. Talk to us at Jinncy today!{" "}
+                Jinncy Inc is a technology-driven firm. We specialize in product
+                design, branding, construction, and launch. We turn abstract
+                concepts into finished, fully working product that meet market
+                criteria. Our primary goal is to revolutionize the way local
+                businesses operate by increasing local businesses revenue
+                through exposion of their services to the right people, at the
+                right time and in the right places. We at Jinncy Inc are
+                dedicated to promoting local businesses through technology.
               </p>
             </motion.div>
           </div>
@@ -92,9 +98,10 @@ const AboutUs = () => {
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px]  ">
                   We define and identify the purpose and objectives of your
-                  website to direct its design and content. This means choosing
-                  a relevant and memorable domain name for your website as well
-                  selecting a befiting hosting plan for your need.
+                  business website in order to guide its design and content.
+                  This includes choosing a meaningful and memorable domain name
+                  for your website as well as a suitable hosting plan for your
+                  needs.
                 </p>
               </div>
             </motion.div>
@@ -117,12 +124,12 @@ const AboutUs = () => {
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We design a layout and outlook for your website that is
-                  appropriate for its goals and the tastes of its target
-                  audience. In designing your website we take into consideration
-                  the use case and purpose and then tailor the design to suit
-                  the purpose of the site. We are very intentional about giving
-                  your website the best look both in desktop and mobile view.
+                  We create a style and appearance for your business's website
+                  that is suited for its goals and the tastes of its target
+                  audience. When designing your website, we consider the use
+                  case and purpose, and then tailor the design to fit the
+                  purpose of the site. We take great care to ensure that your
+                  website looks great on both desktop and mobile devices.
                 </p>
               </div>
             </motion.div>
@@ -150,9 +157,10 @@ const AboutUs = () => {
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
                   We define and identify the purpose and objectives of your
-                  website to direct its design and content. This means choosing
-                  a relevant and memorable domain name for your website as well
-                  selecting a befiting hosting plan for your need.
+                  business website in order to guide its design and content.
+                  This includes choosing a meaningful and memorable domain name
+                  for your website as well as a suitable hosting plan for your
+                  needs.
                 </p>
               </div>
             </motion.div>
@@ -175,12 +183,12 @@ const AboutUs = () => {
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We design a layout and outlook for your website that is
-                  appropriate for its goals and the tastes of its target
-                  audience. In designing your website we take into consideration
-                  the use case and purpose and then tailor the design to suit
-                  the purpose of the site. We are very intentional about giving
-                  your website the best look both in desktop and mobile view.
+                  We create a style and appearance for your business's website
+                  that is suited for its goals and the tastes of its target
+                  audience. When designing your website, we consider the use
+                  case and purpose, and then tailor the design to fit the
+                  purpose of the site. We take great care to ensure that your
+                  website looks great on both desktop and mobile devices.
                 </p>
               </div>
             </motion.div>
@@ -208,12 +216,12 @@ const AboutUs = () => {
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We implement our designs and put the site to use. Part of the
-                  building process is testing the site to ensure, the site is
-                  working perfectly across the different devices. We create an
-                  online identity for your business and help you spread your
-                  across the internet. We build online visibility for your
-                  business
+                  We put our designs into action and launch the website. Testing
+                  the site is an important part of the building process to
+                  ensure that it works properly on all devices. We establish an
+                  online persona for your business and assist you in spreading
+                  your message across the internet. We increase the visibility
+                  of your business on the internet.
                 </p>
               </div>
             </motion.div>
@@ -236,10 +244,10 @@ const AboutUs = () => {
               </div>
               <div className="px-[4.5rem] pt-4 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We publish the website and spread the word about it through
-                  various marketing channels. As part of our effort to making
-                  sure your business continue to gain visibility we update the
-                  site with new material, security upgrades, and bug fixes.
+                  We launch the website and spread the word about it via
+                  numerous marketing platforms. As part of our ongoing efforts
+                  to ensure your business's visibility, we update the site with
+                  fresh content, security upgrades, and bug fixes.
                 </p>
               </div>
             </motion.div>
@@ -266,12 +274,12 @@ const AboutUs = () => {
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We implement our designs and put the site to use. Part of the
-                  building process is testing the site to ensure, the site is
-                  working perfectly across the different devices. We create an
-                  online identity for your business and help you spread your
-                  across the internet. We build online visibility for your
-                  business
+                  We put our designs into action and launch the website. Testing
+                  the site is an important part of the building process to
+                  ensure that it works properly on all devices. We establish an
+                  online persona for your business and assist you in spreading
+                  your message across the internet. We increase the visibility
+                  of your business on the internet.
                 </p>
               </div>
             </motion.div>
@@ -293,10 +301,10 @@ const AboutUs = () => {
               </div>
               <div className="px-[1.5rem] pt-1 border-l-2 ml-6 mt-1">
                 <p className="text-[16px] ">
-                  We publish the website and spread the word about it through
-                  various marketing channels. As part of our effort to making
-                  sure your business continue to gain visibility we update the
-                  site with new material, security upgrades, and bug fixes.
+                  We launch the website and spread the word about it via
+                  numerous marketing platforms. As part of our ongoing efforts
+                  to ensure your business's visibility, we update the site with
+                  fresh content, security upgrades, and bug fixes.
                 </p>
               </div>
             </motion.div>
