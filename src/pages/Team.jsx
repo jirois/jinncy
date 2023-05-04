@@ -1,5 +1,5 @@
 import React from "react";
-import PersonImg from "../assets/Ajiri_photo-re.png";
+import PersonImg from "../assets/Ajiri_01.png";
 import AnabelImg from "../assets/anabel_photo.png";
 import CynthiaImg from "../assets/cynthia_photo.png";
 import LineGradient from "../components/LineGradient";
@@ -26,9 +26,9 @@ const Team = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] n bg-gradient-rainblue  ">
+          <div className="w-[300px] h-[300px] md:w-[30rem] basis-2/6 md:h-[30rem] n bg-gradient-rainblue  ">
             <img
-              className="w-full h-full object-center"
+              className="w-full h-full object-center object-cover"
               src={PersonImg}
               alt="first person profile pic"
             />
@@ -51,7 +51,7 @@ const Team = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] bg-gradient-rainblue">
+          <div className="w-[300px] h-[300px] md:w-[30rem] basis-2/6 md:h-[30rem] bg-gradient-rainblue">
             <img
               className="w-full h-full object-center object-fill"
               src={CynthiaImg}
@@ -76,7 +76,7 @@ const Team = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div className="w-[300px] h-[300px] md:w-[30rem] md:h-[30rem] items-start overflow-hidden bg-gradient-rainblue  ">
+          <div className="w-[300px] h-[300px] md:w-[30rem] basis-2/6 md:h-[30rem] items-start overflow-hidden bg-gradient-rainblue  ">
             <img
               className="w-full h-full overflow-hidden object-center"
               src={AnabelImg}

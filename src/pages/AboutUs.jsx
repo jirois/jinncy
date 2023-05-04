@@ -25,18 +25,13 @@ const AboutUs = () => {
             <SubHeading text="WHO WE ARE" />
             <h2 className="text-5xl font-opensans font-semibold flex-wrap w-[90%] ">
               We are a group of committed individuals that are intentional about
-              developing an exceptional web platform to advertise your business
-              to the right people who require the services you provide.
+              putting your business before the right people who require the
+              services you provide.
             </h2>
             <p className="text-2xl font-roboto">
               Jinncy Inc is a technology-driven firm. We specialize in product
-              design, branding, construction, and launch. We turn abstract
-              concepts into finished, fully working product that meet market
-              criteria. Our primary goal is to revolutionize the way local
-              businesses operate by increasing local businesses revenue through
-              exposion of their services to the right people, at the right time
-              and in the right places. We at Jinncy Inc are dedicated to
-              promoting local businesses through technology.
+              design, branding, construction, and launch. We at Jinncy Inc are
+              dedicated to promoting local businesses through technology.
             </p>
           </motion.div>
         ) : (
@@ -55,18 +50,12 @@ const AboutUs = () => {
               <SubHeading text="WHO WE ARE" />
               <h2 className="text-4xl font-opensans font-semibold flex-wrap  ">
                 We are a group of committed individuals that are intentional
-                about developing an exceptional web platform to advertise your
-                business to the right people who require the services you
-                provide.
+                about putting your business before the right people who require
+                the services you provide.
               </h2>
               <p className="text-1xl font-roboto">
                 Jinncy Inc is a technology-driven firm. We specialize in product
-                design, branding, construction, and launch. We turn abstract
-                concepts into finished, fully working product that meet market
-                criteria. Our primary goal is to revolutionize the way local
-                businesses operate by increasing local businesses revenue
-                through exposion of their services to the right people, at the
-                right time and in the right places. We at Jinncy Inc are
+                design, branding, construction, and launch. We at Jinncy Inc are
                 dedicated to promoting local businesses through technology.
               </p>
             </motion.div>

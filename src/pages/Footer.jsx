@@ -27,8 +27,7 @@ const Footer = () => {
             <SubHeading text="WHERE WE ARE" />
             <h2 className=" text-3xl md:text-5xl font-opensans font-semibold md:flex-wrap md:w-[90%] ">
               Contact Jinncy Inc. today; we can't wait to be a part of your
-              remarkable and impacting business. We want to assist you in
-              getting the services you provide to those who require them.
+              remarkable and impacting business.
             </h2>
           </motion.div>
         ) : (

@@ -49,7 +49,7 @@ function App() {
           <Services />
         </div>
       </div>
-      <div className="w-[90%] md:w-4/5 mx-auto h-full">
+      <div className="w-[90%] md:w-4/5 mx-auto">
         <Team />
       </div>
       <div className="w-5/5 bg-footer-grey">
